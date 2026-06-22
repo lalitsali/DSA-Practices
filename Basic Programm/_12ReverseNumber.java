@@ -1,0 +1,22 @@
+public class _12ReverseNumber {
+   public static void main(String []args){    
+        int num=152222221;
+        int sum=0;
+
+        while(num>0){
+         int rem=num%10;
+         sum=sum*10+rem;
+         num=num/10;
+
+        }
+       System.out.println(sum+"");
+
+
+
+    }
+
+    
+
+
+
+}
